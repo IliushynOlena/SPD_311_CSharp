@@ -152,9 +152,40 @@ namespace _01_IntroToCSharp
             Console.WriteLine("Continue...............");
             */
             //Literals();
-            FormatString();
+            //FormatString();
             //ConsoleMethods();
             // Console.WriteLine();  
+
+            //string astr = Console.ReadLine();
+            //string bstr = Console.ReadLine();
+            //int a = int.Parse(astr);    
+            //int b = int.Parse(bstr);
+            //Console.WriteLine($"A = {a}. B = {b}");
+            //for (int i = a; i <= b; i++)
+            //{
+            //    for (int j = 0; j < i; j++)
+            //    {
+            //          Console.Write(i + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+            Console.WriteLine("\nEnter a range.");
+            int begin = 0;
+            int end = 20;
+            int a = 0;
+            int b = 1;
+            int temp;
+            Console.WriteLine("Fibonacci sequence in your range: ");
+            while (a <= end)
+            {
+                if (a >= begin)
+                    Console.Write($"{a}, ");
+                temp = b;
+                b = a + b;
+                a = temp;
+            }
+            Console.WriteLine($"\b\b.\n");
+
         }
 
         static void FormatString()
