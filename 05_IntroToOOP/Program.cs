@@ -109,6 +109,21 @@
             Console.WriteLine(p.Name);
             Console.WriteLine("---------------------");
             Point[]points = new Point[3];
+            for (int i = 0; i < points.Length; i++)
+            {
+                try
+                {
+                    points[i].Age = int.Parse(Console.ReadLine()!);
+                }
+                catch (Exception ex)
+                {
+
+                    throw;
+                }
+               
+                //Date = 2024-12-25
+
+            }
             points[0] = new Point(10,7);    
             points[1] = new Point(1120,17);    
             points[2] = new Point(140,2);    

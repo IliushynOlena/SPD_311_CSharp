@@ -46,7 +46,7 @@
         //    get { return name; }
         //    set { name = value; }
         //}
-        public string Type { get; } = "2D";//read only
+        public string Type { get; } = "2D";//readonly
         public string Address { get; set; }
         //Full property - propfull + TAB
         private int age;
