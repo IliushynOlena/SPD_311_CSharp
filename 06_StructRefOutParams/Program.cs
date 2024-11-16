@@ -91,7 +91,7 @@ namespace _06_StructRefOutParams
 
             MyClass myClass1;
             Point point1;
-            int a = 0; ;
+            int a = int.Parse(Console.ReadLine());
 
             try
             {
@@ -106,7 +106,10 @@ namespace _06_StructRefOutParams
 
                 Console.WriteLine(ex.Message);
             }
+            finally
+            {
 
+            }
             Console.WriteLine(myClass);
 
             Console.WriteLine(point);
