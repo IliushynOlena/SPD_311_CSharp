@@ -2,7 +2,7 @@
 
 namespace _09_Inheritance
 {
-    abstract class Person: Object
+    abstract class Person//: Object
     {
         protected string name;
         private readonly DateTime birthdate;
@@ -21,7 +21,7 @@ namespace _09_Inheritance
             else
                 birthdate = b;            
         }
-        public abstract void DoWork();
+        public abstract void DoWork();//=0 pure virtual method
         public virtual void Print()
         {
             Console.WriteLine($"Name : {name}. DateBirthday : {birthdate.ToLongDateString()}");
@@ -31,8 +31,16 @@ namespace _09_Inheritance
             return $"Name : {name}. DateBirthday : {birthdate.ToLongDateString()}";
         }
     }
+    class MyClass
+    {
+
+    }
+    class MyClass1
+    {
+
+    }
     //class Name : BaseClass, Interface1, Interface2, Interface3
-    class Worker: Person //public
+    class Worker: Person//public
     {
         private decimal salary;
 
@@ -128,7 +136,7 @@ namespace _09_Inheritance
             // 1 - use cast()
             try
             {
-                pr = (Programmer)persons[3];
+                pr = (Programmer) persons[0];
                 pr.WriteLines();
 
                 pr.Print();

@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_StructRefOutParams", "06
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_OverloadOperators", "07_OverloadOperators\07_OverloadOperators.csproj", "{77FD840E-0DD0-4BEE-A0DD-7B779F10E265}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Indexers", "08_Indexers\08_Indexers.csproj", "{7686026E-8A51-4438-8BC5-6AB94EF3472B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_Indexers", "08_Indexers\08_Indexers.csproj", "{7686026E-8A51-4438-8BC5-6AB94EF3472B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Inheritance", "09_Inheritance\09_Inheritance.csproj", "{3AA2114D-6B39-4A5E-87CF-0A2FC0C74C25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Inheritance", "09_Inheritance\09_Inheritance.csproj", "{3AA2114D-6B39-4A5E-87CF-0A2FC0C74C25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Interfaces", "10_Interfaces\10_Interfaces.csproj", "{FEE091F4-3BAF-4AF0-BB24-59B18B8DF7C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{3AA2114D-6B39-4A5E-87CF-0A2FC0C74C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AA2114D-6B39-4A5E-87CF-0A2FC0C74C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AA2114D-6B39-4A5E-87CF-0A2FC0C74C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEE091F4-3BAF-4AF0-BB24-59B18B8DF7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE091F4-3BAF-4AF0-BB24-59B18B8DF7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE091F4-3BAF-4AF0-BB24-59B18B8DF7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE091F4-3BAF-4AF0-BB24-59B18B8DF7C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
